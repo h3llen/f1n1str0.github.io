@@ -16,6 +16,28 @@
   <meta property="og:description" content="Know me? Or do you want to meet me?">
     <meta property="og:url" content="https://f1n1str0.github.io">
   </head>
+<style>
+ .typewriter h1 {
+  overflow: hidden; 
+  border-right: .15em solid blue; 
+  white-space: nowrap; 
+  margin: 0 auto; 
+  letter-spacing: .15em; 
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: blue; }
+}
+ </style>
 <body>    
 <script type="text/javascript">
 var rev = "fwd";
@@ -57,5 +79,9 @@ function titlebar(val)
 
 titlebar(0);
 </script>
+ <div class="typewriter">
+  <h1>Finistro.</h1>
+</div>
+ 
     </body>
 </html>
