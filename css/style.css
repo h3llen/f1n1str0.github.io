@@ -1,0 +1,10 @@
+html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased!important;
+    text-rendering: optimizeLegibility!important;
+}
+
+body {
+    font-family: "Roboto", sans-serif !important;
+    background-color: black !important;
+}
