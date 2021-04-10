@@ -30,3 +30,5 @@ body {
     z-index: 99
 }
 
+.titule{font-size:30px;background:linear-gradient(-45deg,#7b4397,#dc2430);font-weight:700;z-index:99;letter-spacing:5px;position:initial;-webkit-background-clip:text;-webkit-text-fill-color:transparent;animation:animace2 3.1s;cursor:default}@keyframes animace{0%{letter-spacing:110px;margin-bottom:0;opacity:0;font-size:90px}25%{letter-spacing:0;margin-bottom:0;opacity:.9;font-size:90px}80%{letter-spacing:16px;font-size:90px;margin-bottom:0}}@keyframes animace2{0%{opacity:0}90%{top:20%;opacity:0}}@keyframes shadow{0%{opacity:0}70%{opacity:0}}@keyframes nelez{0%{opacity:0;background-color:#000;color:#000;z-index:999}80%{opacity:0;background-color:#000;color:#000;z-index:999}}@keyframes shadows{0%{opacity:0;top:0}80%{opacity:0;top:50%}}
+
