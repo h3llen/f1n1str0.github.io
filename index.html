@@ -3,7 +3,6 @@
 
 <html>
 <head>
-<title>F1n1str0</title>
 <link href="css/style.css" rel="stylesheet" type="text/css">
 <meta name="author" content="v01d">
 <meta name="description" content="Portfolio | https://github.com/f1n1str0">
@@ -16,7 +15,44 @@
   <meta property="og:description" content="Know me? Or do you want to meet me?">
     <meta property="og:url" content="https://f1n1str0.github.io">
   </head>
-  <body>
+<script type="text/javascript">
+var rev = "fwd";
+function titlebar(val)
+{
+    var msg  = "Finistro.";
+    var res = " ";
+    var speed = 1000
+    var pos = val;
 
-    </body>
+    msg = " "+msg+".;
+    var le = msg.length;
+    if(rev == "fwd"){
+        if(pos < le){
+        pos = pos+1;
+        scroll = msg.substr(0,pos);
+        document.title = scroll;
+        timer = window.setTimeout("titlebar("+pos+")",speed);
+        }
+        else{
+        rev = "bwd";
+        timer = window.setTimeout("titlebar("+pos+")",speed);
+        }
+    }
+    else{
+        if(pos > 0){
+        pos = pos-1;
+        var ale = le-pos;
+        scrol = msg.substr(ale,le);
+        document.title = scrol;
+        timer = window.setTimeout("titlebar("+pos+")",speed);
+        }
+        else{
+        rev = "fwd";
+        timer = window.setTimeout("titlebar("+pos+")",speed);
+        }   
+    }
+}
+
+titlebar(0);
+</script>
 </html>
